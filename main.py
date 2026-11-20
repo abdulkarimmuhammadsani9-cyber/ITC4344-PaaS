@@ -7,11 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "hello,world!"
-if___name___==
-"__main__"
-    app.run()
-
+    return """
     <html>
     <head>
         <title>ITC4344 PaaS Practical</title>
@@ -19,7 +15,7 @@ if___name___==
     <body style="font-family: Arial; text-align: center; padding: 60px;">
         <h1>Hello, Cloud Computing!</h1>
         <h2>Welcome to ITC4344</h2>
-        <p>This application is deployed using Google App Engine.</p>
+        <p>This application is deployed using Render.</p>
         <p>Course: ITC4344 Cloud Computing</p>
         <p>Service Model: Platform as a Service (PaaS)</p>
     </body>
@@ -27,7 +23,10 @@ if___name___==
     """
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8080, debug=True)
+    app.run(debug=True)
+    
+
+
 
 How to save this as a Python file
 1.	Open Notepad on your laptop.
