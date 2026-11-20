@@ -25,14 +25,3 @@ def home():
 if __name__ == "__main__":
     app.run(debug=True)
     
-
-
-
-How to save this as a Python file
-1.	Open Notepad on your laptop.
-2.	Copy only the Python code above and paste it into Notepad.
-3.	Select File > Save As.
-4.	Set File name to main.py.
-5.	Set Save as type to All files (*.*).
-6.	Save it inside your ITC4344-PaaS folder.
-7.	Check that the filename is main.py, not main.py.txt.
