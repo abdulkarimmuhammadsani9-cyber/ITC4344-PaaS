@@ -7,7 +7,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return """
+    return "hello,world!"
+if___name___==
+"__main__"
+    app.run()
+
     <html>
     <head>
         <title>ITC4344 PaaS Practical</title>
