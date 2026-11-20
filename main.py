@@ -1,6 +1,6 @@
 # ITC4344 Cloud Computing – PaaS Practical
 # File 1: main.py
-# Purpose: This Python file defines a simple Flask web application for the Google App Engine practical.
+# Purpose: This Python file defines a simple Flask web application.
 from flask import Flask
 
 app = Flask(__name__)
